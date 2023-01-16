@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.hero{
+  background-color:lightgray;
+  height: 50px;
+
+}
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+nav ul li a{
+  color: black;
+  font-weight: bold;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  border-radius:50%;
+}
+.banner{
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.search-box{
+  margin-top: 22px;
+}
+.search-txt{
+  padding-left: 10px;
+  padding-right: 100px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-style: solid;
+  border-radius: 25px 0 0 25px;
+  font-weight: bold;
+}
+.submit{
+  padding-top: 6px;
+  padding-bottom: 6px; 
+  border-style: solid;
+  border-radius: 0 25px 25px 0;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.p{
+  display: inline-block;
+  margin-right: 100px;
+}
+.Login{
+  padding: 2px 18px;
+  margin-bottom: 4px;
+}
+.form{
+  display: inline-block;
+}
+.signup{
+  padding: 2px 12px;
+  margin-bottom: 4px;
+}
+.iner-footer{
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+  justify-content: space-between;
+}
+.social-links{
+  display: flex;
+}
+.social-links ul{
+  display: flex;  
+  margin: auto;
+}
+.social-items{
+  list-style:none;
+}
+.social-items a{
+  padding:10px 35px;
+  font-size: 35px;
+  color:black;
+}
+.footer-p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
